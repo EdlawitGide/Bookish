@@ -1,0 +1,31 @@
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 80%;
+  justify-content: center;
+}
+
+.filter-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.filter-buttons button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.posts-container {
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Ensures the container takes up at least the full viewport height */
+}
