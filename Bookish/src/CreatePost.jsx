@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate from react-router-dom
 import Navbar from "./Navbar";
+import Comment from "./Comment";
 import PostForm from "./PostForm";
 import { supabase } from "../supabase"; // Import the Supabase client
 
@@ -9,6 +10,7 @@ const CreatePost = () => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [image, setImage] = useState("");
+  const buttonString = "Create Post";
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -38,6 +40,7 @@ const CreatePost = () => {
         setTitle={setTitle}
         setContent={setContent}
         setImage={setImage}
+        buttonString={buttonString}
       />
     </div>
   );

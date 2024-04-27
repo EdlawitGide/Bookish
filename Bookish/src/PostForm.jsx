@@ -9,6 +9,7 @@ const PostForm = ({
   title,
   content,
   image,
+  buttonString,
 }) => {
   return (
     <form className="post-form" onSubmit={handleSubmit}>
@@ -44,7 +45,7 @@ const PostForm = ({
         />
       </label>
       <button className="form-button" type="submit">
-        Create Post
+        {buttonString}
       </button>
     </form>
   );
