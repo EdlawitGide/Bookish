@@ -1,41 +1,27 @@
-# Web Development Final Project - Bookish
+Project - Bookish 
+Bookish is a social media-style web app for book lovers, where users with similar reading preferences can connect, share, and discover new books. Featuring upvotes and comments, it allows users to engage with book recommendations and content they enjoy.
 
-Submitted by: Edlawit Gide
+![image](https://github.com/user-attachments/assets/62488bcd-a876-4786-a650-fbadef7812db)
 
-This web app: A book website where people can post books 
+# Features ✨
 
-Time spent: 24 hours spent in total
+- Create posts with a title, optional content, and an external image URL.
+- Home feed displays posts with creation time, title, and upvote count.
+- Sort posts by creation time or upvote count.
+- Search for posts by title.
+- View detailed post pages with additional content and comments.
+- Upvote posts; each click increases the count.
+- Leave comments on individual post pages.
+- Edit or delete previously created posts.
 
-## Required Features
+# Usage 📖
 
-The following **required** functionality is completed:
+- Users can create and manage posts, adding titles, content, and images.
+- Posts are displayed in the home feed, where users can sort and search based on preferences.
+- Clicking on a post leads to a separate detailed page for viewing content, upvotes, and comments.
+- Users can engage with content by upvoting posts or leaving comments.
+- Post creators have the ability to edit or delete their posts as needed
 
-- [X] **A create form that allows the user to create posts**
-- [X] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
-- [X] **A home feed displaying previously created posts**
-- [X] **By default, the time created, title, and number of upvotes for each post is shown on the feed**
-- [X] **Clicking on a post shall direct the user to a new page for the selected post**
-- [X] **Users can sort posts by either their created time or upvotes count**
-- [X] **Users can search for posts by title**
-- [X] **A separate post page for each created post, where any additional information is shown is linked whenever a user clicks a post**
-- [X] **Users can leave comments underneath a post on the post's separate page**
-- [X] **Each post should have an upvote button on the post's page. Each click increases its upvotes count by one and users can upvote any number of times**
-- [X] **A previously created post can be edited or deleted from its post page**
-
-The following **optional** features are implemented:
-
-- [ ] Users can only edit and deleted posts or delete comments by entering the secret key, which is set by the user during post creation
-- [ ] Upon launching the web app, the user is assigned a random user ID. It will be associated with all posts and comments that they make and displayed on them.
-- [ ] Users can repost a previous post by referencing its post ID. On the post page of the new post, the referenced post is displayed and linked, creating a thread
-- [ ] Users can customize the interface of the web app
-- [ ] Users can share and view web videos
-- [ ] Users can set flags while creating a post. Then users can filter posts by flags on the home feed.
-- [ ] Users can upload images directly from their local machine as an image file
-- [ ] Display a loading animation whenever data is being fetched
-
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
@@ -43,26 +29,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://github.com/EdlawitGide/Bookish/blob/867bd628f8c828f728fe791941104f7027b1dda9/Bookish.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with licecap
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app.
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
