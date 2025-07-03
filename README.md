@@ -1,8 +1,6 @@
  
 Bookish is a social media-style web app for book lovers, where users with similar reading preferences can connect, share, and discover new books. Featuring upvotes and comments, it allows users to engage with book recommendations and content they enjoy.
 
-![image](https://github.com/user-attachments/assets/62488bcd-a876-4786-a650-fbadef7812db)
-
 # Features ✨
 
 - Create posts with a title, optional content, and an external image URL.
